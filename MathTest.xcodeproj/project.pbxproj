@@ -9,13 +9,11 @@
 /* Begin PBXBuildFile section */
 		FD76FB022AA5FDA800464152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD76FB012AA5FDA800464152 /* AppDelegate.swift */; };
 		FD76FB042AA5FDA800464152 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD76FB032AA5FDA800464152 /* SceneDelegate.swift */; };
-		FD76FB062AA5FDA800464152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD76FB052AA5FDA800464152 /* ViewController.swift */; };
-		FD76FB092AA5FDA800464152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD76FB072AA5FDA800464152 /* Main.storyboard */; };
 		FD76FB0B2AA5FDA900464152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD76FB0A2AA5FDA900464152 /* Assets.xcassets */; };
-		FD76FB0E2AA5FDA900464152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD76FB0C2AA5FDA900464152 /* LaunchScreen.storyboard */; };
 		FD76FB192AA5FDA900464152 /* MathTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD76FB182AA5FDA900464152 /* MathTestTests.swift */; };
 		FD76FB232AA5FDA900464152 /* MathTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD76FB222AA5FDA900464152 /* MathTestUITests.swift */; };
 		FD76FB252AA5FDA900464152 /* MathTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD76FB242AA5FDA900464152 /* MathTestUITestsLaunchTests.swift */; };
+		FD76FB322AA5FDE200464152 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD76FB312AA5FDE200464152 /* Math.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +37,14 @@
 		FD76FAFE2AA5FDA800464152 /* MathTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD76FB012AA5FDA800464152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD76FB032AA5FDA800464152 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD76FB052AA5FDA800464152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD76FB082AA5FDA800464152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD76FB0A2AA5FDA900464152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD76FB0D2AA5FDA900464152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD76FB0F2AA5FDA900464152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD76FB142AA5FDA900464152 /* MathTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD76FB182AA5FDA900464152 /* MathTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTestTests.swift; sourceTree = "<group>"; };
 		FD76FB1E2AA5FDA900464152 /* MathTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD76FB222AA5FDA900464152 /* MathTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTestUITests.swift; sourceTree = "<group>"; };
 		FD76FB242AA5FDA900464152 /* MathTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD76FB312AA5FDE200464152 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +97,9 @@
 			children = (
 				FD76FB012AA5FDA800464152 /* AppDelegate.swift */,
 				FD76FB032AA5FDA800464152 /* SceneDelegate.swift */,
-				FD76FB052AA5FDA800464152 /* ViewController.swift */,
-				FD76FB072AA5FDA800464152 /* Main.storyboard */,
 				FD76FB0A2AA5FDA900464152 /* Assets.xcassets */,
-				FD76FB0C2AA5FDA900464152 /* LaunchScreen.storyboard */,
 				FD76FB0F2AA5FDA900464152 /* Info.plist */,
+				FD76FB312AA5FDE200464152 /* Math.swift */,
 			);
 			path = MathTest;
 			sourceTree = "<group>";
@@ -231,9 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD76FB0E2AA5FDA900464152 /* LaunchScreen.storyboard in Resources */,
 				FD76FB0B2AA5FDA900464152 /* Assets.xcassets in Resources */,
-				FD76FB092AA5FDA800464152 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD76FB062AA5FDA800464152 /* ViewController.swift in Sources */,
 				FD76FB022AA5FDA800464152 /* AppDelegate.swift in Sources */,
 				FD76FB042AA5FDA800464152 /* SceneDelegate.swift in Sources */,
+				FD76FB322AA5FDE200464152 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +287,6 @@
 			targetProxy = FD76FB1F2AA5FDA900464152 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FD76FB072AA5FDA800464152 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD76FB082AA5FDA800464152 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FD76FB0C2AA5FDA900464152 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD76FB0D2AA5FDA900464152 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FD76FB262AA5FDA900464152 /* Debug */ = {
@@ -442,7 +415,6 @@
 				INFOPLIST_FILE = MathTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +442,6 @@
 				INFOPLIST_FILE = MathTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
